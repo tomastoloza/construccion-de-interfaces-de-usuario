@@ -1,0 +1,49 @@
+body {
+    background-color: #798ab1;
+}
+.formulario {
+    border: 1px;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+
+}
+
+input {
+    margin: 8px 8px 8px 0;
+    vertical-align: center;
+}
+
+.text-boxes {
+    padding: 4px 4px 4px 8px;
+    height: 20%;
+    border-radius: 16px;
+    text-align: left;
+}
+
+input[type=color] {
+    size: 40px;
+}
+
+#petbook {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#title p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input[type=submit] {
+    width: auto;
+    padding: 8px;
+    background-color: #507ad5;
+}
