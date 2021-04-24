@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS 2 - 2</title>
+</head>
+<body>
+<div id="source">Source</div>
+<div id="destination">Destination</div>
+<script>
+    let source = document.getElementById("source").textContent;
+    let destination = document.getElementById("destination").textContent;
+    document.getElementById("source").textContent = destination;
+    document.getElementById("destination").textContent = source;
+
+    // Cambiar logo de google por image de doge
+    // document.getElementById("hplogo").src = "https://d1e00ek4ebabms.cloudfront.net/production/846fa298-c016-465f-b73e-0591df79ec98.png"
+</script>
+</body>
+</html>

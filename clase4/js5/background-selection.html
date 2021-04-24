@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background selection</title>
+</head>
+<body>
+<label for="color">Ingrese un color HEX #</label>
+
+<input type="text" id="color" placeholder="123456">
+<input type="submit" onclick="changeBackgroundColor()">
+
+
+<script>
+    function changeBackgroundColor() {
+        var color = document.getElementById("color").value
+        document.body.style.backgroundColor = "#" + color
+    }
+</script>
+</body>
+</html>

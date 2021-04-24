@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS 1</title>
+</head>
+<body>
+<script>
+    function sumaVariables() {
+        const a = 1
+        const b = 2
+        const c = 3
+        const d = a + b + c
+        console.log(d)
+    }
+
+    function variablesEnString() {
+        const nombre = "Tomas"
+        const edad = 21
+        const cumple = "12/6"
+        const ciudad = "Villa Tesei"
+        const ocupacion = "Desarrollador"
+        console.log(`Soy ${nombre}, tengo ${edad} y cumplo el ${cumple}, vivo en ${ciudad} y soy ${ocupacion}`)
+    }
+
+    function interactuarConUser() {
+        alert("Alta pagina wacho, ojo")
+        let nombre_user = prompt("Inserte su nombre")
+        alert(`Hola ${nombre_user}`)
+        let edad_user = prompt("Inserte su edad")
+        console.log(`Hola ${edad_user}`)
+        alert(`Hola ${nombre_user} con edad ${edad_user}`)
+    }
+
+    function calcularDias() {
+        let edad_user = prompt("Inserte su edad")
+        alert(`${edad_user * 365} días`)
+    }
+
+    function stringEscapeado() {
+        alert('\"What\'s wrong with the pudding?\", she\'d say with a smile.')
+        alert('I\'d often think' * "to myself, \"Well, what's the worst wrong that could go wrong?\". I guess" * "now we know..." // no será + en lugar de *?
+        )
+    }
+</script>
+<input type="button" onclick="sumaVariables()" value="Suma de variables (consola)">
+<input type="button" onclick="variablesEnString()" value="String con variables (consola)">
+<input type="button" onclick="interactuarConUser()" value="Interactuar con usuario">
+<input type="button" onclick="calcularDias()" value="Calcular dias por edad">
+<input type="button" onclick="stringEscapeado()" value="String escapeado">
+
+
+</body>
+</html>

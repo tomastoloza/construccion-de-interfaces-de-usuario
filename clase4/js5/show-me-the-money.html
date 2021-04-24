@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show me the money</title>
+    <style>
+        img {
+            width: 90%;
+            height: 90%;
+        }
+        div {
+            width: 50%;
+            height: 50%;
+        }
+
+        .oculto {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button>Show me the Money</button>
+    <img src="https://www.usnews.com/dims4/USNEWS/5f475a0/2147483647/crop/2000x1334%2B0%2B0/resize/970x647/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fa5%2F60%2Fbe7bf1ac4894a3098e04b0c080c6%2F200820-1000cash-stock.jpg"
+         alt=""><br>
+</div>
+<div>
+    <button>Show me Miami</button>
+    <img src="https://ventsmagazine.com/wp-content/uploads/2020/04/guia-viaje-miami.jpg" alt=""><br>
+</div>
+<div>
+    <button>Show me MAIAMEEE</button>
+    <img src="http://nadieescool.com/wp-content/uploads/2015/08/0312_ricardo_fort_cedoc_g.jpg_1853027552.jpg" alt="">
+</div>
+<script>
+    document.querySelectorAll("img").forEach(img => img.classList.add("oculto"))
+    let div = document.querySelectorAll("div");
+
+    function toggleImage(b) {
+        b.querySelector("img").classList.toggle("oculto")
+    }
+
+    div.forEach(b => b.querySelector("button").addEventListener("click", function () {
+        toggleImage(b);
+    }))
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Div</title>
+    <style>
+        img {
+            width: 50%;
+        }
+
+        #magic {
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<img src="https://www.usnews.com/dims4/USNEWS/5f475a0/2147483647/crop/2000x1334%2B0%2B0/resize/970x647/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fa5%2F60%2Fbe7bf1ac4894a3098e04b0c080c6%2F200820-1000cash-stock.jpg"
+     alt="">
+<div id="magic"></div>
+<img id="magic-img" src="http://nadieescool.com/wp-content/uploads/2015/08/0312_ricardo_fort_cedoc_g.jpg_1853027552.jpg"
+     alt="">
+<script>
+    function desapareceRicky() {
+        document.getElementById("magic-img").style.display = 'none';
+    }
+
+    let div = document.getElementById("magic");
+    div.addEventListener("mouseenter", desapareceRicky)
+
+    function apareceRicky() {
+        document.getElementById("magic-img").style.display = 'inline';
+    }
+
+    div.addEventListener("mouseleave", apareceRicky)
+</script>
+</body>
+</html>

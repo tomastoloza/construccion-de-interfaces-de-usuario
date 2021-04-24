@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS 2</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: rgba(88, 65, 196, 0.8)
+        }
+    </style>
+</head>
+<body>
+<div>
+</div>
+<script>
+    function toggleColors() {
+        htmlDivElement.classList.toggle("square")
+    }
+
+    htmlDivElement = document.querySelector("div");
+    setInterval(toggleColors, 1000)
+</script>
+</body>
+</html>
