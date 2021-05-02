@@ -5,25 +5,23 @@
     <title>Mouse tracker</title>
     <style>
         img {
-            /*height: 100vh;*/
+            height: 100vh;
             cursor: none;
+            position: fixed;
         }
     </style>
 </head>
 <body>
-<p></p>
-<img src="https://media.giphy.com/media/MtQxKzhytFsmQ/giphy.gif" alt="" style="position: fixed">
+<img src="https://media.giphy.com/media/MtQxKzhytFsmQ/giphy.gif" alt="">
 <script>
     const body = document.querySelector("body");
 
     function edit(e) {
-        const img = document.querySelector("img")
-        img.style.top = e.clientY;
-        img.style.left = e.clientX;
-        document.querySelector("p").textContent = e.clientY +" "+ e.clientX
+        body.style.top = e.clientY;
+        body.style.left = e.clientX;
     }
 
-    body.addEventListener("mousemove", edit);
+    body.addEventListener("mousemove mousehold", edit);
 
 </script>
 </body>
