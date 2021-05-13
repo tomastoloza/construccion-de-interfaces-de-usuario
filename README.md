@@ -6,7 +6,7 @@
 [Ejercicio CCS 3](clase2/css3.html)  
 [Ejercicio CSS 4](clase2/css4.html)  
 [Elije tu propia aventura](clase2/aventura)  
-[Ejercicio Formulario y Formspree](https://github.com/tomastoloza/petbook) subido a [Netlify](https://petbook-tomastoloza.netlify.app/)  
+[Ejercicio Formulario y Formspree](https://github.com/tomastoloza/petbook) en [Github Pages](https://tomastoloza.github.io/petbook/)  
 
 ## Ejercicios Clase 4
 [Ejercicios Javascript](clase4/js1)  
