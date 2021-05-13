@@ -14,3 +14,7 @@
 [Ejercicio Beeper](clase4/js3)  
 [Ejercicio Resaltador](clase4/js4)  
 [Ejercicios](clase4/js5)
+
+## Ejercicios Clase 5
+[Ejercicios](clase5/closures.md)  
+[ES6: Ejercicios](clase5/async.js)
